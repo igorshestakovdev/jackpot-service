@@ -1,0 +1,9 @@
+app:
+  kafka:
+    embedded:
+      enabled: false
+
+spring:
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+
